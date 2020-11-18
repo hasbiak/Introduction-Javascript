@@ -1,7 +1,8 @@
 
-function printSegitiga(num){
-    if ( typeof num == "number"){
-        for (let i = num; i > 0; i--) {
+const printSegitiga = 5
+
+    if ( typeof printSegitiga == "number"){
+        for (let i = printSegitiga; i > 0; i--) {
           let str = ""
           for (let j = 1; j <= i; j++) {
             str += j
@@ -12,6 +13,3 @@ function printSegitiga(num){
           console.log("Data harus number")
                 
               }
-        }
-
-   printSegitiga(5)

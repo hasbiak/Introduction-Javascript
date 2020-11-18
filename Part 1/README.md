@@ -1,6 +1,6 @@
-# Task Part 1 - Introduction Javascript
+# Tugas Part 1 - Introduction Javascript
 
-## Tugas 1 - Biodata
+## Tugas 1
 
 Buat variabel dengan nama biodata dan tipe data object dengan value dan tipe data sebagai berikut:
 name (string)
@@ -11,7 +11,7 @@ schoolList (Array of Object) with key name, yearIn, yearOut, and major (if any, 
 skills (Array of Obj) with key skillName and level (beginner, advanced, expert)
 interestInCoding (Boolean)
 
-## Tugas 2 - Rata Rata
+## Tugas 2
 
 Buat program yang menghitung rata-rata UN beserta gradenya, dengan mengisi 4 nilai yakni Bahasa indonesia, Bahasa Inggris Matematika dan IPA, yang di dalam program tersebut memiliki validasi yaitu semua nilai tersebut harus diisi dan juga untuk grade memiliki kondisi dengan ketentuan sebagai berikut:
 90 - 100 = A
@@ -32,7 +32,7 @@ Output:
 Rata-rata = 82
 Grade = B
 
-## Tugas 3 - Print Segitiga
+## Tugas 3
 
 Buatlah program yang memiliki satu variabel dengan nama “printSegitiga” yg berisi tipe data number yang menghasilkan output segitiga terbalik yang berisi angka
 
@@ -51,7 +51,7 @@ const printSegitiga = “enam”
 Output:
 “Data harus number”
 
-## Tugas 4 - Datas
+## Tugas 4
 
 Dari data dibawah ini
 
