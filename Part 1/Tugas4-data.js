@@ -1,3 +1,4 @@
+
     let data = {
     id: 1,
     name: "Leanne Graham",
@@ -14,10 +15,12 @@
     website: "hildegard.org",
     }
 
-    // A. Ubahlah data 
+    // A. SPREAD OPERATOR
+    // Mengganti nama dan email dan menambahkan hobby menggunakan spread operator
     data = {...data,name:"Hasbi Alwi Kusmana", email: "Hasbialwi70@gmail.com",hobby:"Futsal"}
 
     // B.Destructuring
+    // Ambil data street dan city kedalam variabel baru dengan nama yang sama menggunakan destructuring
     
     let {street, city} = data.address
 

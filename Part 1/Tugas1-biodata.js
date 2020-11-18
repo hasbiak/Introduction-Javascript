@@ -1,3 +1,4 @@
+
 const biodata = {
   name: "Hasbi Alwi Kusmana",
   age: 20,
@@ -22,13 +23,21 @@ const biodata = {
   ],
   skills: [
     {
-      skillName: "Php",
-    },
-    { level: "Beginner" },
-    {
-      skillName: "MySql",
-    },
-    { level: "Beginner" },
+      skillName: 'HTML',
+      level: 'Beginner',
+  },
+  {
+      skillName: 'CSS',
+      level: 'Beginner',
+  },
+  {
+    skillName: 'Javascript',
+    level: 'Beginner',
+},
+{
+    skillName: 'PHP',
+    level: 'Beginner',
+}
   ],
   interestInCoding: true,
 };

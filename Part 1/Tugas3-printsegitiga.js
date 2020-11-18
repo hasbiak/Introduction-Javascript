@@ -1,15 +1,17 @@
 
 function printSegitiga(num){
-        if (typeof num !== "number"){console.log("Data harus number")
+    if ( typeof num == "number"){
+        for (let i = num; i > 0; i--) {
+          let str = ""
+          for (let j = 1; j <= i; j++) {
+            str += j
+          }
+            console.log(str)
+          }
         }else{
-            for (let i = num; i > 0; i--) {
-                let str = ""
-                for (let j = 1; j <= i; j++) {
-                  str += j
-                }
-                console.log(str)
+          console.log("Data harus number")
+                
               }
         }
-    }
 
    printSegitiga(5)
