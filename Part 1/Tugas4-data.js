@@ -24,6 +24,6 @@
     
     let {street, city} = data.address
 
-    console.log(street,city)
+    // console.log(street,city)
     
-    // console.log(data)
+    console.log(data)
