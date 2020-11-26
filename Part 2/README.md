@@ -1,4 +1,4 @@
-# Task2-Introduction-javascript
+# Tugas Part 2 - Introduction Javascript
 
 ## TUGAS 1
 

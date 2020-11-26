@@ -6,7 +6,7 @@ console.log(a);
 // 2. toPrecision
 // membuat bilangan desimal menjadi bilangan presisi yang signifikan sesuai kebutuhan user
 let b = 7.983;
-console.log(b.toPrecision(2));
+console.log(b.toPrecision(3));
 
 // 3. charAt()
 // Untuk me-return character pada nomer index yang spesifik dari suatu string
@@ -57,5 +57,6 @@ var acak = Math.random()
 console.log(acak)
 
 // 10.length()
+// Untuk mengetahui panjang dari kalimat
 let panjang = "Saya Belajar Javascript";
 console.log(panjang.length);

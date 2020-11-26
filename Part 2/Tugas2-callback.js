@@ -29,4 +29,4 @@ const showResult = (result) => {
   console.log(result);
 };
 
-searchName("an", 3, showResult);
+searchName("AN", 3, showResult);
