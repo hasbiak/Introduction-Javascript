@@ -11,11 +11,12 @@ const getmonth = (callback) => {
   }
 
   function showMonth(isError, bulan){
-    if (isError !== null){
-        console.log(isError)
+    if (isError === null){
+      // const result = bulan.map((value) => value);
+      // console.log(result);
+      bulan.map(value => console.log(value))
     }else{
-      const result = bulan.map((value) => value);
-      console.log(result);
+      console.log(isError)
     }
 }
 getmonth(showMonth)

@@ -29,12 +29,12 @@ const hariKerja = (day) => {
   
   // try catch
   
-  const jadwalKerja = async (day) => {
+  async function jadwalKerja(day){
     try {
-      const result = await hariKerja(day);
-      console.log(result);
+      const cek = await hariKerja(day);
+      console.log(cek);
     } catch (error) {
-      console.log(`error`);
+      console.log(error.message);
     } finally {
       console.log("Program selesai!");
     }

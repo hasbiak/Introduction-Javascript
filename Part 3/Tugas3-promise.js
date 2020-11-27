@@ -3,9 +3,9 @@ const code = (interestCode) => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       if (interestCode === "YES") {
-        resolve("Code Your Future");
+        resolve("Code Berhasil");
       } else {
-        reject("Must Code Your Future");
+        reject("Code Error");
       }
     }, 3000);
   });
