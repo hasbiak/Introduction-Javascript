@@ -9,4 +9,4 @@ const divideAndSort = (num) => {
     }
   };
   
-  divideAndSort("5956560159466056");
+  divideAndSort(5956560159466056);

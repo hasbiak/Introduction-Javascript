@@ -8,4 +8,4 @@ const reverseWord = (teks) => {
      }
    };
    
-   reverseWord("Saya Belajar Javascript");
+   reverseWord(123);

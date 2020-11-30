@@ -13,4 +13,4 @@ const cekpalindrome = (teks) => {
     }
   };
   
-  cekpalindrome("Malam");
+  cekpalindrome("ibu");
