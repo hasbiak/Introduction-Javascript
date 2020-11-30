@@ -5,8 +5,8 @@ const divideAndSort = (num) => {
       const x = num.toString().split("0");
       const y = x.map((e) => e.split("").sort().join(""));
       const z = parseInt(y.join(""));
-      console.log(z)
+      console.log(`Output : ${z}`)
     }
   };
   
-  divideAndSort(5956560159466056);
+  divideAndSort("5956560159466056");

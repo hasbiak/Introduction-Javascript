@@ -5,8 +5,7 @@ const cekpalindrome = (teks) => {
       const x = teks.toLowerCase();
       const y = x.split("").reverse().join("");
   
-      // console.log(`${x} ${y}`);
-      if (x == y) {
+      if (x === y) {
         console.log(`${x} Adalah Palindrome`);
       } else {
         console.log(`${x} Bukan Palindrome`);
