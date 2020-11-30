@@ -17,13 +17,13 @@ Demy membeli makanan menggunakan aplikasi ArkFood. Dimana terdapat 2 buah kode p
 3. Jika tidak menggunakan kode promo ‘false’
    Untuk pengiriman sejauh 2km pertama akan dikenakan tarif 5rb, dan setiap satu kilometer selanjutnya dikenakan penambahan 3rb. Untuk beberapa restoran dikenakan pajak yakni 5% dari harga makanan yang dipesan (true), jika tidak dikenakan pajak (false).
 
-# Task
+Task :
 
 Buatlah flowchart untuk membuat fungsi dari cerita diatas.
 Buatlah sebuah function yang menerima 4 parameter.
 ArkFood(harga, voucher, jarak, pajak)
 
-# Example
+Example :
 
 Input : arkFood(75000, ‘ARKFOOD5’, 5, true)
 Output : Harga : 75000
